@@ -1,0 +1,683 @@
+/*************
+ *
+ * SFS V3.50
+ *  March 15th 2020
+ *  Mac Winter
+ *  https://1.envato.market/sfs
+ *
+ * TOC
+ *  1. Imports
+ *  2. main settings, bootstrap overrulings and helperlies
+ *  3. captcha reload button on contact and abuse page
+ *  4. Sticky footer
+ *  5. File uploader & Results Pages
+ *  6. FAQs
+ *  7. Charts Page (Flot & more) (admin stuff)
+ *  8. download page stuff
+ *  9. Datatables (admin stuff)
+ * 10. Color Definitions AND theme relevant overrulings
+ * 11. admin navigation mobile optimizations
+ * 12. admin panels
+ * 13. admin error log items
+ *
+ **************/
+
+/******
+ * 1. CSS File Imports [+]
+ ******/
+@import url(font-awesome.min.css);
+@import url(jquery.dataTables.min.css);
+@import url(pnotify.custom.min.css);
+@import url(bootstrap-tagsinput.css);
+@import url(chosen.bootstrap.min.css);
+/**** social likes, please import just one ****/
+/*the classic button style*/
+@import url(social-likes_classic.css);  
+/*or the flat style*/
+/*@import url(social-likes_flat.css);*/  
+
+/******
+ * 1. CSS File Imports [-]
+ ******/
+
+
+/******
+ * 2. main settings, bootstrap overrulings and helperlies [+]
+ ******/
+.navbar.navbar-not-rounded {
+   -webkit-border-radius: 0;
+       -moz-border-radius: 0;
+            border-radius: 0;
+}
+h2.error404 {
+  font-size: 500%;
+}
+
+.text-center .img-responsive {
+  display: inline-block;
+}
+.js-hide { /* because bootstraps hide/hidden/fade doesn't work as well with jquery*/
+  display: none;
+}
+.nob {
+  font-weight: normal;
+}
+.btn-wrap {white-space: normal;}
+
+.m0 {margin:0;}
+.m5 {margin:5px;}
+.mb0 {margin-bottom: 0;}
+.mt0 {margin-top:0;}
+.mt6 {margin-top:6px;}
+.mt20 { margin-top:20px;}
+.mt18 { margin-top:18px;}
+.mb20 {margin-bottom: 20px}
+.mt60 {margin-top:60px;}
+
+.w100 {width:100px;}
+.pt20 {padding-top:20px;}
+
+
+.h24 {height:45px;}
+
+.table td.tar,.table th.tar, .tar {text-align: right;}
+.table td.tac,.table th.tac, .tac {text-align: center;}
+
+.pointer {cursor: pointer}
+
+.alert.alert-sm {
+  padding:5px;
+}
+
+/*wider bootbox */
+@media (min-width: 880px) {
+  .bb-800 .modal-dialog {
+    width: 800px !important;
+  }
+}
+/******
+ * 2. main settings, bootstrap overrulings and helperlies [-]
+ ******/
+
+
+/******
+ * 3. captcha reload button on contact and abuse page [-]
+ ******/
+.btn-captcha-refresh {
+  position:absolute;
+  top:0;
+  right:0;
+  margin:0px 15px 0 0;
+  z-index:9999
+}
+/******
+ * 3. captcha reload button on contact and abuse page [+]
+ ******/
+
+
+
+/******
+ * 4. Sticky footer [+]
+ ******/
+ html, body {
+  height: 100%;
+}
+#wrapper_main {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -110px; /*neg. footer height*/
+}
+#push, #footer {
+  height: 110px;
+}
+#footer {
+  background-color: #f3f3f3;  /** will be overruled at the bottom **/
+  font-size: 11px;
+}
+/* responsive CSS fixes */
+@media (max-width: 767px) {
+  #footer {
+    margin:0;
+    padding:0;
+    height:auto;
+  }
+}
+#footer .footerFaqs a {
+  display: block;
+  text-overflow:ellipsis;
+  white-space:nowrap; 
+  overflow: hidden;
+}
+#footer h6 a {
+  color: inherit;
+}
+/******
+ * 4. Sticky footer [-]
+ ******/
+
+
+/******
+ * 5. File uploader & Results Pages [+]
+ ******/
+.fileinput-button {
+  position: relative;
+  overflow: hidden;
+  margin-top: 14px;
+}
+.fileinput-button input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transform: translate(-300px, 0) scale(4);
+  font-size: 23px;
+  direction: ltr;
+  cursor: pointer;
+  height:65px;
+}
+.btn.cancelUpload {
+  margin-top:14px;
+}
+/*** progress bar ***/
+#progress {
+  height: 40px;
+  margin-top:18px;
+}
+.progress .pct {
+  font-weight: bold;
+  padding-top:8px;
+  text-align: center;
+  position:absolute;
+  width:100%;
+  font-size:16px;
+  text-shadow: -1px -1px 0 #efefef, 1px -1px 0 #efefef, -1px 1px 0 #efefef, 1px 1px 0 #efefef;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+}
+.progress small {
+  position:absolute;
+  right:55px;
+  top:12px;
+  font-size: 12px;
+  font-style: italic;
+}
+#uploadInfo {
+  padding-top:20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+#singleUploadSucceeded input[readonly],
+#multiUploadSucceeded input[readonly],
+.filesgroup input[readonly]  {
+  background-color: #fff;
+  color:#999;
+}
+.delXdays,
+.delXdownloads,
+.delXdaysMulti,
+.delXdownloadsMulti {
+  font-size:14px;
+}
+
+.speedIndicator div[class^=col-] {
+  padding:0;
+}
+.speedIndicator h3 {
+  padding:2px;
+  padding-bottom:5px;
+  margin:0;
+}
+
+
+/**** Download, Filesgroup and Delete File  ***/
+.dfname {
+  display: block;
+  text-overflow:ellipsis;
+  white-space:nowrap; 
+  overflow: hidden;
+  max-width: 400px;
+}
+.dfname small {
+  display:block;
+  font-size: 60%;
+  line-height: 1.5;
+  font-style: italic;
+}
+/******
+ * 5. File uploader & Results Pages [-]
+ ******/
+
+
+/******
+ * 6. FAQs [+]
+ ******/
+#faqs h4 a {
+  outline:0;
+  text-decoration: none;
+  display: block;
+}
+/******
+ * 6. FAQs [-]
+ ******/
+
+
+/******
+ * 7. Charts Page (Flot & more) (admin stuff) [+]
+******/
+.flot {
+  width: 100%;
+  margin: 10px auto;
+}
+.flot.large {
+  height: 600px;
+}
+
+.flot.medium {
+  height: 400px;
+}
+
+.flot.small {
+  height: 200px;
+}
+.flotdescr{padding:5px;padding-right: 15px;font-size:10px;line-height: normal}
+#updownloads {
+  overflow:hidden;
+}
+.SFSCharts .panel-heading a {
+  outline:0;
+  text-decoration: none;
+  display: block;
+}
+#updownloadsPanel .xAxis .tickLabel {
+  transform: rotate(270deg);
+  margin-bottom:-50px;
+  margin-top:50px;
+  white-space: nowrap;
+}
+.flot-periodizer .row {
+  margin-top:70px!important;
+  margin-bottom:12px!important;
+}
+
+/******
+ * 7. Charts Page (Flot & more) (admin stuff) [-]
+******/
+
+
+/******
+ * 8. download/delete page stuff [+]
+******/
+/* COUNTDOWN BUTTON */
+span#dlCD {
+  font-size:17.5px;
+  width: 20px;
+  text-align:center;
+  display: inline-block;
+  height:20px;
+  padding:0;
+}
+
+/*PASSWORD PROTECTION*/
+input.superSize-input {
+  font-size: 22px;
+  height: 34px;
+  font-weight:bold;
+}
+
+.thumbnail.thumbnail-downloadimage {
+  display: inline-block;
+}
+.panel.panel-downloadfile,
+.panel.panel-deletefile {
+  display: inline-block;
+}
+.panel.panel-downloadfile .download-button-wrapper {
+  margin: 2px;
+}
+.panel.panel-downloadfile .panel-heading h2 {
+  margin:5px;
+}
+.panel.panel-deletefile .panel-heading h4 {
+  margin:2px;
+}
+.panel.panel-deletefile .panel-body h2 {
+  margin-top:0;
+}
+
+.btn-report-file span {
+  display: none;
+}
+.btn-report-file:hover span {
+  display: inline;
+}
+
+.filesgroup .panel-heading a {
+  outline:0;
+  text-decoration: none;
+  display: block;
+}
+.filesgroup .panel-heading small {
+  color:inherit;
+}
+
+/*just the quotes of user messages*/
+.user-message i.fa {
+  opacity: 0.33;
+}
+
+/******
+ * 8. download page stuff [-]
+******/
+
+
+.filename-truncate strong {
+  text-overflow:ellipsis;
+  white-space:nowrap; 
+  overflow: hidden;
+  width:120px;
+  display: block;
+}
+
+
+/******
+ * 9. Datatables (admin stuff) [+]
+******/
+table.dataTable thead th {
+    position: relative;
+    background-image: none !important;
+    border-bottom:none;
+}
+table.dataTable.no-footer {
+  border-bottom: none;
+}
+.dataTables_wrapper .dataTables_info {
+  margin-top: 9px;
+}
+table.dataTable thead th.sorting:after,
+table.dataTable thead th.sorting_asc:after,
+table.dataTable thead th.sorting_desc:after {
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    display: block;
+    font-family: FontAwesome;
+}
+table.dataTable thead th.sorting:after {
+    content: "\f0dc";
+    color: #ddd;
+    font-size: 0.8em;
+    padding-top: 0.12em;
+}
+table.dataTable thead th.sorting_asc:after {
+    content: "\f0de";
+}
+table.dataTable thead th.sorting_desc:after {
+    content: "\f0dd";
+}
+
+table.dataTable tbody tr {
+  background-color: inherit;
+}
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
+  color: inherit;
+}
+
+.dataTable tr td:first-child + td {
+  text-overflow:ellipsis;
+  white-space:nowrap; 
+  overflow: hidden;
+  max-width:200px;
+}
+.dataTable tr td:first-child + td:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(102, 175, 233, 0.6);
+  -webkit-transform: scale(1.25, 1.25);
+  -moz-transform: scale(1.25, 1.25);
+  -o-transform: scale(1.25, 1.25);
+  -ms-transform: scale(1.25, 1.25);
+  transform: scale(1.25, 1.25);
+  background-color: inherit;
+}
+
+
+/** responsive table **/
+@media (max-width: 767px) {
+  .table-responsive .table tr th.table-tools-responsive {
+    min-width:140px;
+  }
+  .table-responsive .table td .btn-group.btn {
+    float: none;
+    display: inline-block;
+  }
+}
+@media (min-width: 768px) {
+  .table-responsive {
+    overflow: hidden;
+  }
+  .table-responsive #filesDataTable {
+    width:inherit!important;
+  }
+
+}
+/******
+ * 9. Datatables (admin stuff) [-]
+******/
+
+
+/******
+ * 10. Color Definitions AND theme relevant overrulings [+]
+******/
+hr.hr-color1,
+#BS-default hr.hr-color1,
+#BS-default-themed hr.hr-color1,
+#BS-cerulean hr.hr-color1 {
+  border-color: #ccc;
+}
+#BS-darkly hr.hr-color1,
+#BS-slate hr.hr-color1 {
+  border-color: #979797;
+}
+
+#BS-default #footer,
+#BS-default-themed #footer,
+#BS-cerulean #footer,
+#BS-journal #footer,
+#BS-paper #footer,
+#BS-spacelab #footer {
+  background-color: #eee; 
+}
+#BS-cosmo #footer {
+  background-color: #e6e6e6;
+  font-size:85%;
+}
+#BS-darkly #footer {
+  background-color: #303030;
+}
+#BS-flatly #footer {
+  background-color: #ecf0f1;
+}
+#BS-lumen #footer,
+#BS-sandstone #footer {
+  background-color: #f8f8f8;
+  font-size:85%;
+}
+#BS-readable #footer {
+  background-color: #f7f7f7;
+  font-size:85%;
+}
+#BS-simplex #footer {
+  background-color: #f4f4f4;
+}
+#BS-slate #footer {
+  background-color: #1C1E22;
+  font-size:85%;
+}
+#BS-superhero #footer {
+  background-color: #4E5D6C;
+  font-size:85%;
+}
+#BS-superhero #footer a {
+  color: #ddd;
+}
+
+#BS-cerulean #progress,
+#BS-journal #progress,
+#BS-simplex #progress,
+#BS-slate #progress,
+#BS-spacelab #progress,
+#BS-united #progress {
+  margin-top:21px;
+}
+#BS-cosmo #progress,
+#BS-sandstone #progress {
+  height:55px;
+  margin-top: 20px;
+}
+#BS-darkly #progress,
+#BS-flatly #progress {
+  margin-top: 24px;
+}
+#BS-paper #progress {
+  margin-top: 16px;
+}
+#BS-readable #progress {
+  margin-top: 22px;
+}
+#BS-superhero #progress {
+  margin-top:19px;
+}
+#BS-yeti #progress {
+  height:55px;
+  margin-top: 17px;
+}
+
+
+
+
+
+/*
+  padding-top:8px;
+  font-size:16px;
+*/
+  /*top:12px;*/
+#BS-cosmo .progress .pct,
+#BS-sandstone .progress .pct,
+#BS-yeti .progress .pct {
+  padding-top: 11px;
+  font-size: 22px;
+}
+#BS-darkly .progress .pct,
+#BS-simplex .progress .pct,
+#BS-slate .progress .pct,
+#BS-superhero .progress .pct {
+  color:#333;
+}
+#BS-lumen .progress .pct,
+#BS-paper .progress .pct {
+  padding-top: 4px;
+  font-size: 18px;
+}
+
+
+#BS-cosmo .progress small,
+#BS-sandstone .progress small,
+#BS-yeti .progress small {
+  font-size: 14px;
+  top: 16px;
+}
+#BS-lumen .progress small,
+#BS-paper .progress small {
+  top: 10px;
+}
+
+
+
+
+
+#BS-cerulean #uploadInfo {
+  padding-top:28px;
+}
+#BS-cosmo #uploadInfo,
+#BS-darkly #uploadInfo,
+#BS-flatly #uploadInfo,
+#BS-journal #uploadInfo,
+#BS-readable #uploadInfo,
+#BS-sandstone #uploadInfo,
+#BS-yeti #uploadInfo {
+  padding-top:26px;
+  font-size:22px;
+}
+#BS-simplex #uploadInfo,
+#BS-slate #uploadInfo,
+#BS-spacelab #uploadInfo,
+#BS-superhero #uploadInfo,
+#BS-united #uploadInfo {
+  padding-top:22px;
+  font-size:22px;
+}
+
+#BS-lumen .fileinput-button:hover,
+#BS-lumen .btn.cancelUpload:hover {
+  margin-top:15px;
+}
+
+#BS-sandstone .dataTables_wrapper .form-control.input-sm {
+  padding:4px;
+}
+
+
+#BS-readable .navbar .navbar-collapse.collapse {
+  padding-right: 0;
+}
+/******
+ * 10. Color Definitions AND theme relevant overrulings [-]
+******/
+
+
+
+/******
+ * 11. admin navigation mobile optimizations [+]
+******/
+@media (max-width: 767px) {
+  .nav-admin a span {
+    display:none;
+  }
+  .nav-admin .active a span {
+    display:inline;
+  }
+}
+
+.btn-blocks div[class^=col-] {
+  margin-bottom:16px;
+}
+
+/******
+ * 11. admin navigation mobile optimizations [-]
+******/
+
+
+/******
+ * 12. admin panels [+]
+******/
+.panel-sfs-settings .panel-heading {
+  cursor: pointer;
+}
+
+/******
+ * 12. admin panels [-]
+*****
+
+/******
+ * 13. admin error log items [+]
+******/
+.wrapper-logitem-buttons {
+  position:absolute;
+  right:0;
+  top:0;
+}
+
+/******
+ * 13. admin error log items [-]
+*****

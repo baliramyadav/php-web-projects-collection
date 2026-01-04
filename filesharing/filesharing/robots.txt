@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /delete/
+Disallow: /files/
+Disallow: /download/
+Disallow: /filesgroup/
+Disallow: /?u_key=*
+Disallow: /files/
+Disallow: /files.php*
+
