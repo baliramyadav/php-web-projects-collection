@@ -1,0 +1,20 @@
+
+http://apartment.softwaredemo.info/
+
+Login Details
+Super Admin  
+
+
+username  :  superadmin@superadmin.com	
+
+password  :     123456	
+
+
+​
+Admin    	tony@yahoo.com	123456	
+​
+Owner	 john@gmail.com	123456	
+​
+Employee	johnsina@gmail.com	123456	
+​
+Tenant	        jimcary@yahoo.com	123456	
