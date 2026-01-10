@@ -1,0 +1,25 @@
+<?php 
+$lang['emailtemplate_slno'] = '#';
+$lang['emailtemplate_action'] = 'فعل';
+$lang['emailtemplate_edit'] = 'تعديل';
+$lang['emailtemplate_delete'] = 'حذف';
+$lang['emailtemplate_name'] = 'اسم';
+$lang['emailtemplate_template'] = 'نموذج';
+$lang['emailtemplate_status'] = 'حالة';
+$lang['emailtemplate_please_select'] = 'الرجاء التحديد';
+$lang['emailtemplate_active'] = 'نشيط';
+$lang['emailtemplate_disable'] = 'تعطيل';
+$lang['emailtemplate_attribute'] = 'ينسب';
+$lang['emailtemplate_memberID'] = 'معرف العضو';
+$lang['emailtemplate_dateofbirth'] = 'تاريخ الولادة';
+$lang['emailtemplate_gender'] = 'جنس تذكير أو تأنيث';
+$lang['emailtemplate_religion'] = 'دين';
+$lang['emailtemplate_email'] = 'بريد الالكتروني';
+$lang['emailtemplate_phone'] = 'هاتف';
+$lang['emailtemplate_address'] = 'تبوك';
+$lang['emailtemplate_joinning_date'] = 'تاريخ الانضمام';
+$lang['emailtemplate_photo'] = 'صورة فوتوغرافية';
+$lang['emailtemplate_username'] = 'اسم االمستخدم';
+$lang['emailtemplate_current_date'] = 'التاريخ الحالي';
+$lang['emailtemplate_add_email_template'] = 'أضف قالب بريد إلكتروني';
+$lang['emailtemplate_update_email_template'] = 'تحديث قالب البريد الإلكتروني';

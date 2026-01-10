@@ -1,0 +1,22 @@
+<?php 
+$lang['memberreport_slno'] = '#';
+$lang['memberreport_add'] = 'يضيف';
+$lang['memberreport_edit'] = 'يحرر';
+$lang['memberreport_view'] = 'رأي';
+$lang['memberreport_delete'] = 'حذف';
+$lang['memberreport_action'] = 'فعل';
+$lang['memberreport_please_select'] = 'الرجاء التحديد';
+$lang['memberreport_report_for'] = 'تقرير ل';
+$lang['memberreport_role'] = 'دور';
+$lang['memberreport_member'] = 'عضو';
+$lang['memberreport_blood_group'] = 'فصيلة الدم';
+$lang['memberreport_status'] = 'حالة';
+$lang['memberreport_active'] = 'نشيط';
+$lang['memberreport_block'] = 'حاجز';
+$lang['memberreport_photo'] = 'صورة فوتوغرافية';
+$lang['memberreport_name'] = 'اسم';
+$lang['memberreport_phone'] = 'هاتف';
+$lang['memberreport_email'] = 'بريد الالكتروني';
+$lang['memberreport_get_member'] = 'احصل على عضو';
+$lang['memberreport_print_member'] = 'عضو طباعة';
+$lang['memberreport_pdf_member'] = 'عضو PDF';
