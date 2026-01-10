@@ -1,0 +1,22 @@
+<?php 
+$lang['ebook_slno'] = '#';
+$lang['ebook_add'] = 'অ্যাড';
+$lang['ebook_edit'] = 'সম্পাদনা করুন';
+$lang['ebook_view'] = 'দেখুন';
+$lang['ebook_delete'] = 'মুছে ফেলা';
+$lang['ebook_name'] = 'নাম';
+$lang['ebook_please_select'] = 'অনুগ্রহ করে নির্বাচন করুন';
+$lang['ebook_notes'] = 'মন্তব্য';
+$lang['ebook_author'] = 'লেখক';
+$lang['ebook_action'] = 'কর্ম';
+$lang['ebook_status'] = 'স্থিতি';
+$lang['ebook_enable'] = 'সক্ষম করুন';
+$lang['ebook_disable'] = 'অক্ষম করুন';
+$lang['ebook_add_ebook'] = 'ইবুক যুক্ত করুন';
+$lang['ebook_update_ebook'] = 'ইবুক আপডেট করুন';
+$lang['ebook_filebrowse'] = 'ফাইল ব্রাউজ করুন';
+$lang['ebook_clear'] = 'স্পষ্ট';
+$lang['ebook_cover_photo'] = 'প্রচ্ছদ ছবি';
+$lang['ebook_published'] = 'প্রকাশিত';
+$lang['ebook_secret'] = 'গোপন';
+$lang['ebook_file'] = 'ফাইল';

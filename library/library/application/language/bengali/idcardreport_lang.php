@@ -1,0 +1,27 @@
+<?php 
+$lang['idcardreport_slno'] = '#';
+$lang['idcardreport_add'] = 'অ্যাড';
+$lang['idcardreport_edit'] = 'সম্পাদনা করুন';
+$lang['idcardreport_view'] = 'দেখুন';
+$lang['idcardreport_delete'] = 'মুছে ফেলা';
+$lang['idcardreport_action'] = 'কর্ম';
+$lang['idcardreport_please_select'] = 'অনুগ্রহ করে নির্বাচন করুন';
+$lang['idcardreport_role'] = 'ভূমিকা';
+$lang['idcardreport_member'] = 'সদস্য';
+$lang['idcardreport_member_ID'] = 'সদস্য আইডি';
+$lang['idcardreport_blood_group'] = 'রক্তের গ্রুপ';
+$lang['idcardreport_emergency'] = 'জরুরী';
+$lang['idcardreport_type'] = 'প্রকার';
+$lang['idcardreport_front_part'] = 'সামনের অংশ';
+$lang['idcardreport_back_part'] = 'পিছনের অংশ';
+$lang['idcardreport_memberID'] = 'সদস্য আইডি';
+$lang['idcardreport_phone_no'] = 'ফোন নম্বর';
+$lang['idcardreport_email_no'] = 'ইমেল নং';
+$lang['idcardreport_card_property'] = 'এই কার্ড এর সম্পত্তি';
+$lang['idcardreport_found_please_return_to'] = 'যদি পাওয়া যায় তবে দয়া করে এখানে ফিরে যান';
+$lang['idcardreport_valid_till'] = 'বৈধ পর্যন্ত';
+$lang['idcardreport_authorized'] = 'অনুমোদিত';
+$lang['idcardreport_data_not_available'] = 'ডেটা উপলভ্য নয়';
+$lang['idcardreport_get_card'] = 'কার্ড পান';
+$lang['idcardreport_print_card'] = 'মুদ্রণ কার্ড';
+$lang['idcardreport_pdf_card'] = 'পিডিএফ কার্ড';

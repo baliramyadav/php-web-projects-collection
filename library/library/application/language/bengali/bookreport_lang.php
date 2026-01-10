@@ -1,0 +1,23 @@
+<?php 
+$lang['bookreport_slno'] = '#';
+$lang['bookreport_add'] = 'অ্যাড';
+$lang['bookreport_edit'] = 'সম্পাদনা করুন';
+$lang['bookreport_view'] = 'দেখুন';
+$lang['bookreport_delete'] = 'মুছে ফেলা';
+$lang['bookreport_action'] = 'কর্ম';
+$lang['bookreport_please_select'] = 'অনুগ্রহ করে নির্বাচন করুন';
+$lang['bookreport_book_category'] = 'বই বিভাগ';
+$lang['bookreport_book'] = 'বই';
+$lang['bookreport_status'] = 'স্থিতি';
+$lang['bookreport_available'] = 'উপলব্ধ';
+$lang['bookreport_not_available'] = 'পাওয়া যায় না';
+$lang['bookreport_cover_photo'] = 'প্রচ্ছদ ছবি';
+$lang['bookreport_name'] = 'নাম';
+$lang['bookreport_author'] = 'লেখক';
+$lang['bookreport_code'] = 'কোড';
+$lang['bookreport_category'] = 'বিভাগ';
+$lang['bookreport_quantity'] = 'পরিমাণ';
+$lang['bookreport_book_not_available'] = 'বই পাওয়া যায় না';
+$lang['bookreport_get_book'] = 'বই পান';
+$lang['bookreport_print_book'] = 'মুদ্রণ বই';
+$lang['bookreport_pdf_book'] = 'পিডিএফ বই';

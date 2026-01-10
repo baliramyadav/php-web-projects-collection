@@ -1,0 +1,25 @@
+<?php 
+$lang['smstemplate_slno'] = '#';
+$lang['smstemplate_action'] = 'فعل';
+$lang['smstemplate_edit'] = 'يحرر';
+$lang['smstemplate_delete'] = 'حذف';
+$lang['smstemplate_name'] = 'اسم';
+$lang['smstemplate_template'] = 'نموذج';
+$lang['smstemplate_status'] = 'حالة';
+$lang['smstemplate_please_select'] = 'الرجاء التحديد';
+$lang['smstemplate_active'] = 'نشيط';
+$lang['smstemplate_disable'] = 'تعطيل';
+$lang['smstemplate_attribute'] = 'ينسب';
+$lang['smstemplate_memberID'] = 'معرف العضو';
+$lang['smstemplate_dateofbirth'] = 'تاريخ الولادة';
+$lang['smstemplate_gender'] = 'جنس تذكير أو تأنيث';
+$lang['smstemplate_religion'] = 'دين';
+$lang['smstemplate_email'] = 'بريد الالكتروني';
+$lang['smstemplate_phone'] = 'هاتف';
+$lang['smstemplate_address'] = 'تبوك';
+$lang['smstemplate_joinning_date'] = 'تاريخ الانضمام';
+$lang['smstemplate_photo'] = 'صورة فوتوغرافية';
+$lang['smstemplate_username'] = 'اسم المستخدم';
+$lang['smstemplate_current_date'] = 'التاريخ الحالي';
+$lang['smstemplate_add_email_template'] = 'أضف قالب بريد إلكتروني';
+$lang['smstemplate_update_email_template'] = 'تحديث قالب البريد الإلكتروني';

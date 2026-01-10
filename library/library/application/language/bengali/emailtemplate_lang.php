@@ -1,0 +1,25 @@
+<?php 
+$lang['emailtemplate_slno'] = '#';
+$lang['emailtemplate_action'] = 'কর্ম';
+$lang['emailtemplate_edit'] = 'সম্পাদনা করুন';
+$lang['emailtemplate_delete'] = 'মুছে ফেলা';
+$lang['emailtemplate_name'] = 'নাম';
+$lang['emailtemplate_template'] = 'টেমপ্লেট';
+$lang['emailtemplate_status'] = 'স্থিতি';
+$lang['emailtemplate_please_select'] = 'অনুগ্রহ করে নির্বাচন করুন';
+$lang['emailtemplate_active'] = 'সক্রিয়';
+$lang['emailtemplate_disable'] = 'অক্ষম করুন';
+$lang['emailtemplate_attribute'] = 'গুণ';
+$lang['emailtemplate_memberID'] = 'সদস্য আইডি';
+$lang['emailtemplate_dateofbirth'] = 'জন্ম তারিখ';
+$lang['emailtemplate_gender'] = 'লিঙ্গ';
+$lang['emailtemplate_religion'] = 'ধর্ম';
+$lang['emailtemplate_email'] = 'ইমেল';
+$lang['emailtemplate_phone'] = 'ফোন';
+$lang['emailtemplate_address'] = 'ঠিকানা';
+$lang['emailtemplate_joinning_date'] = 'যোগদান তারিখ';
+$lang['emailtemplate_photo'] = 'ছবি';
+$lang['emailtemplate_username'] = 'ব্যবহারকারীর নাম';
+$lang['emailtemplate_current_date'] = 'বর্তমান তারিখ';
+$lang['emailtemplate_add_email_template'] = 'ইমেল টেম্পলেট যুক্ত করুন';
+$lang['emailtemplate_update_email_template'] = 'ইমেল টেমপ্লেট আপডেট করুন';

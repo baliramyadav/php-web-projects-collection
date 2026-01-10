@@ -1,0 +1,26 @@
+<?php 
+$lang['transactionreport_slno'] = '#';
+$lang['transactionreport_add'] = 'يضيف';
+$lang['transactionreport_edit'] = 'يحرر';
+$lang['transactionreport_view'] = 'رأي';
+$lang['transactionreport_delete'] = 'حذف';
+$lang['transactionreport_action'] = 'فعل';
+$lang['transactionreport_please_select'] = 'الرجاء التحديد';
+$lang['transactionreport_report_for'] = 'تقرير ل';
+$lang['transactionreport_role'] = 'دور';
+$lang['transactionreport_member'] = 'عضو';
+$lang['transactionreport_from_date'] = 'من التاريخ';
+$lang['transactionreport_to_date'] = 'حتى تاريخه';
+$lang['transactionreport_income'] = 'دخل';
+$lang['transactionreport_expense'] = 'مصروف';
+$lang['transactionreport_collection'] = 'مجموعة';
+$lang['transactionreport_fine'] = 'بخير';
+$lang['transactionreport_discount'] = 'خصم';
+$lang['transactionreport_due'] = 'حق';
+$lang['transactionreport_type'] = 'اكتب';
+$lang['transactionreport_date'] = 'تاريخ';
+$lang['transactionreport_amount'] = 'كمية';
+$lang['transactionreport_get_transaction'] = 'احصل على معاملة';
+$lang['transactionreport_print_transaction'] = 'طباعة المعاملة';
+$lang['transactionreport_pdf_transaction'] = 'معاملة PDF';
+$lang['transactionreport_transaction_not_available'] = 'المعاملة غير متوفرة';
