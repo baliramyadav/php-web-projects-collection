@@ -1,0 +1,23 @@
+<?php 
+$lang['bookreport_slno'] = '#';
+$lang['bookreport_add'] = 'يضيف';
+$lang['bookreport_edit'] = 'يحرر';
+$lang['bookreport_view'] = 'رأي';
+$lang['bookreport_delete'] = 'حذف';
+$lang['bookreport_action'] = 'فعل';
+$lang['bookreport_please_select'] = 'الرجاء التحديد';
+$lang['bookreport_book_category'] = 'فئة الكتاب';
+$lang['bookreport_book'] = 'الكتاب';
+$lang['bookreport_status'] = 'حالة';
+$lang['bookreport_available'] = 'متاح';
+$lang['bookreport_not_available'] = 'غير متوفر';
+$lang['bookreport_cover_photo'] = 'صورة الغلاف';
+$lang['bookreport_name'] = 'اسم';
+$lang['bookreport_author'] = 'مؤلف';
+$lang['bookreport_code'] = 'رمز';
+$lang['bookreport_category'] = 'فئة';
+$lang['bookreport_quantity'] = 'كمية';
+$lang['bookreport_book_not_available'] = 'الكتاب غير متوفر';
+$lang['bookreport_get_book'] = 'احصل على كتاب';
+$lang['bookreport_print_book'] = 'كتاب طباعة';
+$lang['bookreport_pdf_book'] = 'كتاب PDF';

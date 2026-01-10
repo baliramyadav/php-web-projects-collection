@@ -1,0 +1,26 @@
+<?php 
+$lang['emailsend_slno'] = '#';
+$lang['emailsend_add'] = 'يضيف';
+$lang['emailsend_edit'] = 'تعديل';
+$lang['emailsend_view'] = 'رأي';
+$lang['emailsend_delete'] = 'حذف';
+$lang['emailsend_action'] = 'فعل';
+$lang['emailsend_message'] = 'رسالة';
+$lang['emailsend_subject'] = 'موضوعات';
+$lang['emailsend_sender_role'] = 'دور المرسل';
+$lang['emailsend_sender_name'] = 'اسم المرسل';
+$lang['emailsend_all_member'] = 'كل الأعضاء';
+$lang['emailsend_send_email'] = 'ارسل بريد الكتروني';
+$lang['emailsend_please_select'] = 'الرجاء التحديد';
+$lang['emailsend_emailtemplate'] = 'نموذج البريد الإلكتروني';
+$lang['emailsend_add_email_send'] = 'إضافة إرسال بريد إلكتروني';
+$lang['emailsend_guest'] = 'ضيف';
+$lang['emailsend_name'] = 'اسم';
+$lang['emailsend_member_role'] = 'دور العضو';
+$lang['emailsend_member_name'] = 'اسم عضو';
+$lang['emailsend_othersubject'] = 'موضوعات';
+$lang['emailsend_othermessage'] = 'رسالة';
+$lang['emailsend_email'] = 'بريد الالكتروني';
+$lang['emailsend_otheremail'] = 'بريد إلكتروني آخر';
+$lang['emailsend_create_date'] = 'تاريخ الإنشاء';
+$lang['emailsend_email_template'] = 'نموذج البريد الإلكتروني';

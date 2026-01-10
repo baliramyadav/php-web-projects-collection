@@ -1,0 +1,22 @@
+<?php 
+$lang['ebook_slno'] = '#';
+$lang['ebook_add'] = 'يضيف';
+$lang['ebook_edit'] = 'تعديل';
+$lang['ebook_view'] = 'رأي';
+$lang['ebook_delete'] = 'حذف';
+$lang['ebook_name'] = 'اسم';
+$lang['ebook_please_select'] = 'الرجاء التحديد';
+$lang['ebook_notes'] = 'ملاحظات';
+$lang['ebook_author'] = 'مؤلف';
+$lang['ebook_action'] = 'فعل';
+$lang['ebook_status'] = 'حالة';
+$lang['ebook_enable'] = 'يمكن';
+$lang['ebook_disable'] = 'تعطيل';
+$lang['ebook_add_ebook'] = 'أضف كتاب إلكتروني';
+$lang['ebook_update_ebook'] = 'تحديث الكتاب الاليكترونى';
+$lang['ebook_filebrowse'] = 'تصفح الملف';
+$lang['ebook_clear'] = 'واضح';
+$lang['ebook_cover_photo'] = 'صورة الغلاف';
+$lang['ebook_published'] = 'نشرت';
+$lang['ebook_secret'] = 'سر';
+$lang['ebook_file'] = 'ملف';

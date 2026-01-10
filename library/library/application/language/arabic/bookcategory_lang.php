@@ -1,0 +1,19 @@
+<?php 
+$lang['bookcategory_slno'] = '#';
+$lang['bookcategory_add'] = 'يضيف';
+$lang['bookcategory_edit'] = 'يحرر';
+$lang['bookcategory_view'] = 'رأي';
+$lang['bookcategory_delete'] = 'حذف';
+$lang['bookcategory_name'] = 'اسم';
+$lang['bookcategory_please_select'] = 'الرجاء التحديد';
+$lang['bookcategory_description'] = 'وصف';
+$lang['bookcategory_action'] = 'فعل';
+$lang['bookcategory_status'] = 'حالة';
+$lang['bookcategory_enable'] = 'يمكن';
+$lang['bookcategory_disable'] = 'تعطيل';
+$lang['bookcategory_add_book_category'] = 'أضف فئة الكتاب';
+$lang['bookcategory_update_book_category'] = 'تحديث فئة الكتاب';
+$lang['bookcategory_filebrowse'] = 'تصفح الملف';
+$lang['bookcategory_clear'] = 'واضح';
+$lang['bookcategory_cover_photo'] = 'صورة الغلاف';
+$lang['bookcategory_coverphoto'] = 'صورة الغلاف';
