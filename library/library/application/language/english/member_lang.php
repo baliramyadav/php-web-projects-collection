@@ -1,0 +1,44 @@
+<?php
+
+$lang['member_slno']   = "#";
+$lang['member_add']    = "Add";
+$lang['member_edit']   = "Edit";
+$lang['member_view']   = "View";
+$lang['member_delete'] = "Delete";
+
+$lang['member_name']          = "Name";
+$lang['member_gender']        = "Gender";
+$lang['member_religion']      = "Religion";
+$lang['member_email']         = "Email";
+$lang['member_phone']         = "Phone";
+$lang['member_status']        = "Status";
+$lang['member_address']       = "Address";
+$lang['member_photo']         = "Photo";
+$lang['member_active']        = "Active";
+$lang['member_action']        = "Action";
+$lang['member_username']      = "Username";
+$lang['member_password']      = "Password";
+$lang['member_role']          = "Role";
+$lang['member_enable']        = "Enable";
+$lang['member_disable']       = "Disable";
+$lang['member_add_member']    = "Add Member";
+$lang['member_clear']         = "Clear";
+$lang['member_male']          = "Male";
+$lang['member_female']        = "Female";
+$lang['member_block']         = "Block";
+$lang['member_new']           = "New";
+$lang['member_profile']       = "Profile";
+$lang['member_filebrowse']    = "File Browse";
+$lang['member_joinning_date'] = "Joinning of date";
+$lang['member_date_of_birth'] = "Date of birth";
+$lang['member_update_member'] = "Update Member";
+$lang['member_please_select'] = "Please Select";
+$lang['member_blood_group']   = "Blood Group";
+$lang['member_member']        = "Member";
+$lang['member_category']      = "Category";
+$lang['member_book']          = "Book";
+$lang['member_book_no']       = "Book No";
+$lang['member_issued']        = "Issued";
+$lang['member_return']        = "Return";
+$lang['member_lost']          = "Lost";
+$lang['member_book_issue']    = "Book Issue";

@@ -1,0 +1,25 @@
+<?php 
+$lang['smstemplate_slno'] = '#';
+$lang['smstemplate_action'] = 'কর্ম';
+$lang['smstemplate_edit'] = 'সম্পাদনা করুন';
+$lang['smstemplate_delete'] = 'মুছে ফেলা';
+$lang['smstemplate_name'] = 'নাম';
+$lang['smstemplate_template'] = 'টেমপ্লেট';
+$lang['smstemplate_status'] = 'স্থিতি';
+$lang['smstemplate_please_select'] = 'অনুগ্রহ করে নির্বাচন করুন';
+$lang['smstemplate_active'] = 'সক্রিয়';
+$lang['smstemplate_disable'] = 'অক্ষম করুন';
+$lang['smstemplate_attribute'] = 'গুণ';
+$lang['smstemplate_memberID'] = 'সদস্য আইডি';
+$lang['smstemplate_dateofbirth'] = 'জন্ম তারিখ';
+$lang['smstemplate_gender'] = 'লিঙ্গ';
+$lang['smstemplate_religion'] = 'ধর্ম';
+$lang['smstemplate_email'] = 'ইমেল';
+$lang['smstemplate_phone'] = 'ফোন';
+$lang['smstemplate_address'] = 'ঠিকানা';
+$lang['smstemplate_joinning_date'] = 'যোগদান তারিখ';
+$lang['smstemplate_photo'] = 'ছবি';
+$lang['smstemplate_username'] = 'ব্যবহারকারীর নাম';
+$lang['smstemplate_current_date'] = 'বর্তমান তারিখ';
+$lang['smstemplate_add_email_template'] = 'ইমেল টেম্পলেট যুক্ত করুন';
+$lang['smstemplate_update_email_template'] = 'ইমেল টেমপ্লেট আপডেট করুন';

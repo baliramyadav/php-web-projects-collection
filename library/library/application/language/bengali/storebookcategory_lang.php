@@ -1,0 +1,19 @@
+<?php 
+$lang['storebookcategory_slno'] = '#';
+$lang['storebookcategory_add'] = 'অ্যাড';
+$lang['storebookcategory_edit'] = 'সম্পাদনা করুন';
+$lang['storebookcategory_view'] = 'দেখুন';
+$lang['storebookcategory_delete'] = 'মুছে ফেলা';
+$lang['storebookcategory_name'] = 'নাম';
+$lang['storebookcategory_please_select'] = 'অনুগ্রহ করে নির্বাচন করুন';
+$lang['storebookcategory_description'] = 'বর্ণনা';
+$lang['storebookcategory_action'] = 'কর্ম';
+$lang['storebookcategory_status'] = 'স্থিতি';
+$lang['storebookcategory_enable'] = 'সক্ষম করুন';
+$lang['storebookcategory_disable'] = 'অক্ষম করুন';
+$lang['storebookcategory_add_book_category'] = 'স্টোর বইয়ের বিভাগ যুক্ত করুন';
+$lang['storebookcategory_update_book_category'] = 'স্টোর বইয়ের বিভাগ আপডেট করুন';
+$lang['storebookcategory_filebrowse'] = 'ফাইল ব্রাউজ করুন';
+$lang['storebookcategory_clear'] = 'স্পষ্ট';
+$lang['storebookcategory_cover_photo'] = 'প্রচ্ছদ ছবি';
+$lang['storebookcategory_coverphoto'] = 'প্রচ্ছদ ছবি';

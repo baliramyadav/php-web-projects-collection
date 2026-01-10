@@ -1,0 +1,44 @@
+<?php
+
+$lang['menubar_dashboard']         = "Dashboard";
+$lang['menubar_member']            = "Member";
+$lang['menubar_administrator']     = "Administrator";
+$lang['menubar_menu']              = "Menu";
+$lang['menubar_role']              = "Role";
+$lang['menubar_permissions']       = "Permissions";
+$lang['menubar_permissionlog']     = "Permissionlog";
+$lang['menubar_emailtemplate']     = "Email Template";
+$lang['menubar_emailsend']         = "Email Send";
+$lang['menubar_libraryconfigure']  = "Library Configure";
+$lang['menubar_settings']          = "Settings";
+$lang['menubar_generalsetting']    = "General Setting";
+$lang['menubar_emailsetting']      = "Email Setting";
+$lang['menubar_books']             = "Books";
+$lang['menubar_book']              = "Book";
+$lang['menubar_bookcategory']      = "Book Category";
+$lang['menubar_rack']              = "Rack";
+$lang['menubar_requestbook']       = "Request Book";
+$lang['menubar_ebook']             = "Ebook";
+$lang['menubar_bookissue']         = "Book Issue";
+$lang['menubar_account']           = "Account";
+$lang['menubar_income']            = "Income";
+$lang['menubar_expense']           = "Expense";
+$lang['menubar_themesetting']      = "Theme Setting";
+$lang['menubar_update']            = "Update";
+$lang['menubar_backup']            = "Backup";
+$lang['menubar_bookbarcode']       = "Book Barcode";
+$lang['menubar_smssetting']        = "SMS Setting";
+$lang['menubar_storemanagement']   = "Store Management";
+$lang['menubar_storebook']         = "Store Book";
+$lang['menubar_storebookcategory'] = "Store Book Category";
+$lang['menubar_order']             = "Order";
+$lang['menubar_paymentsetting']    = "Payment Setting";
+
+$lang['menubar_reports']             = "Reports";
+$lang['menubar_idcardreport']        = "ID Card Report";
+$lang['menubar_accountledgerreport'] = "Account Ledger Report";
+$lang['menubar_transactionreport']   = "Transaction Report";
+$lang['menubar_memberreport']        = "Member Report";
+$lang['menubar_bookreport']          = "Book Report";
+$lang['menubar_bookissuereport']     = "Book Issue Report";
+$lang['menubar_bookbarcodereport']   = "Book Barcode Report";

@@ -1,0 +1,31 @@
+<?php
+
+$lang['profile_name']          = "Name";
+$lang['profile_gender']        = "Gender";
+$lang['profile_religion']      = "Religion";
+$lang['profile_email']         = "Email";
+$lang['profile_phone']         = "Phone";
+$lang['profile_address']       = "Address";
+$lang['profile_photo']         = "Photo";
+$lang['profile_role']          = "Role";
+$lang['profile_username']      = "Username";
+$lang['profile_password']      = "Password";
+$lang['profile_role']          = "Role";
+$lang['profile_filebrowse']    = "File Browse";
+$lang['profile_active']        = "Active";
+$lang['profile_block']         = "Block";
+$lang['profile_status']        = "Status";
+$lang['profile_profile']       = "Profile";
+$lang['profile_blood_group']   = "Blood Group";
+$lang['profile_joinning_date'] = "Joinning of date";
+$lang['profile_date_of_birth'] = "Date of birth";
+$lang['profile_book_issue']    = "Book Issue";
+$lang['profile_action']        = "Action";
+$lang['profile_member']        = "Member";
+$lang['profile_category']      = "Category";
+$lang['profile_book']          = "Book";
+$lang['profile_book_no']       = "Book No";
+$lang['profile_status']        = "Status";
+$lang['profile_issued']        = "Issued";
+$lang['profile_return']        = "Return";
+$lang['profile_lost']          = "Lost";

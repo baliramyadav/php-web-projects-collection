@@ -1,0 +1,35 @@
+<?php
+$lang['storebook_slno']   = "#";
+$lang['storebook_add']    = "Add";
+$lang['storebook_edit']   = "Edit";
+$lang['storebook_view']   = "View";
+$lang['storebook_delete'] = "Delete";
+
+$lang['storebook_name']               = "Name";
+$lang['storebook_please_select']      = "Please Select";
+$lang['storebook_description']        = "Description";
+$lang['storebook_action']             = "Action";
+$lang['storebook_status']             = "Status";
+$lang['storebook_enable']             = "Enable";
+$lang['storebook_disable']            = "Disable";
+$lang['storebook_add_book']           = "Add Store Book";
+$lang['storebook_update_book']        = "Update Store Book";
+$lang['storebook_filebrowse']         = "File Browse";
+$lang['storebook_clear']              = "Clear";
+$lang['storebook_coverphoto']         = "Cover Photo";
+$lang['storebook_author']             = "Author";
+$lang['storebook_storebook_category'] = "Category";
+$lang['storebook_quantity']           = "Quantity";
+$lang['storebook_price']              = "Price";
+$lang['storebook_isbn_no']            = "Isbn No";
+$lang['storebook_cover_photo']        = "Cover Photo";
+$lang['storebook_code_no']            = "Code No";
+$lang['storebook_rack']               = "Rack";
+$lang['storebook_edition_number']     = "Edition Number";
+$lang['storebook_edition_date']       = "Edition Date";
+$lang['storebook_publisher']          = "Publisher";
+$lang['storebook_published_date']     = "Published date";
+$lang['storebook_notes']              = "Notes";
+$lang['storebook_descrption']         = "Description";
+$lang['storebook_images']             = "Images";
+$lang['storebook_multiple']           = "Multiple";
