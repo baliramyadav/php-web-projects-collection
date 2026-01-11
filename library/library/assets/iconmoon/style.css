@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'lms';
+  src:  url('fonts/lms.eot?mjhku9');
+  src:  url('fonts/lms.eot?mjhku9#iefix') format('embedded-opentype'),
+    url('fonts/lms.ttf?mjhku9') format('truetype'),
+    url('fonts/lms.woff?mjhku9') format('woff'),
+    url('fonts/lms.svg?mjhku9#lms') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class*=" lms-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'lms' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.lms-book:before {
+  content: "\e900";
+}
+.lms-bookshelf:before {
+  content: "\e901";
+}
+.lms-study:before {
+  content: "\e902";
+}
+.lms-open-book-pencil:before {
+  content: "\e903";
+}
+.lms-merchant:before {
+  content: "\e904";
+}
+.lms-incomes:before {
+  content: "\e905";
+}
+.lms-salary:before {
+  content: "\e906";
+}
+.lms-id-card:before {
+  content: "\e907";
+}
+.lms-community:before {
+  content: "\e908";
+}
+.lms-buy:before {
+  content: "\e909";
+}
+.lms-open-book:before {
+  content: "\e90a";
+}
+.lms-library:before {
+  content: "\e90b";
+}
+.lms-educational-book:before {
+  content: "\e90c";
+}
+.lms-writing:before {
+  content: "\e90d";
+}
+.lms-professor:before {
+  content: "\e90e";
+}
+.lms-notebook:before {
+  content: "\e90f";
+}
+.lms-book-and-pencil:before {
+  content: "\e910";
+}
+.lms-settings:before {
+  content: "\e912";
+}
+.lms-envelope:before {
+  content: "\e913";
+}
+.lms-send:before {
+  content: "\e915";
+}
+.lms-open-envelope:before {
+  content: "\e916";
+}
+.lms-scrum:before {
+  content: "\e917";
+}
+.lms-template-design:before {
+  content: "\e918";
+}
+.lms-user-tie:before {
+  content: "\e976";
+}
+.lms-meter:before {
+  content: "\e9a6";
+}

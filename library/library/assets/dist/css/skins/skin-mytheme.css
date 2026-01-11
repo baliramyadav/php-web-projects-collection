@@ -1,0 +1,174 @@
+/*
+ * Skin: mytheme
+ * ----------
+ */
+
+.skin-mytheme .main-header .navbar {
+    background-color: #2f333e;
+}
+
+.skin-mytheme .main-header .navbar .nav>li>a {
+    color: #ffffff;
+}
+
+.skin-mytheme .main-header .navbar .nav>li>a:hover,
+.skin-mytheme .main-header .navbar .nav>li>a:active,
+.skin-mytheme .main-header .navbar .nav>li>a:focus,
+.skin-mytheme .main-header .navbar .nav .open>a,
+.skin-mytheme .main-header .navbar .nav .open>a:hover,
+.skin-mytheme .main-header .navbar .nav .open>a:focus,
+.skin-mytheme .main-header .navbar .nav>.active>a {
+    background: rgba(0, 0, 0, 0.1);
+    color: #f6f6f6;
+}
+
+.skin-mytheme .main-header .navbar .sidebar-toggle {
+    color: #ffffff;
+}
+
+.skin-mytheme .main-header .navbar .sidebar-toggle:hover {
+    color: #f6f6f6;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.skin-mytheme .main-header .navbar .sidebar-toggle {
+    color: #fff;
+}
+
+.skin-mytheme .main-header .navbar .sidebar-toggle:hover {
+    background-color: #1C212F;
+}
+
+@media (max-width: 767px) {
+    .skin-mytheme .main-header .navbar .dropdown-menu li.divider {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    .skin-mytheme .main-header .navbar .dropdown-menu li a {
+        color: #fff;
+    }
+    .skin-mytheme .main-header .navbar .dropdown-menu li a:hover {
+        background: #1C212F;
+    }
+}
+
+.skin-mytheme .main-header .logo {
+    background-color: #26282E;
+    color: #ffffff;
+    border-bottom: 0 solid transparent;
+}
+
+.skin-mytheme .main-header .logo:hover {
+    background-color: #2f333e;
+}
+
+.skin-mytheme .main-header li.user-header {
+    background-color: #2f333e;
+}
+
+.skin-mytheme .content-header {
+    background: transparent;
+}
+
+.skin-mytheme .wrapper,
+.skin-mytheme .main-sidebar,
+.skin-mytheme .left-side {
+    background-color: #2f333e;
+}
+
+.skin-mytheme .user-panel>.info,
+.skin-mytheme .user-panel>.info>a {
+    color: #fff;
+}
+
+.skin-mytheme .sidebar-menu>li.header {
+    color: #4b646f;
+    background: #1a2226;
+}
+
+.skin-mytheme .sidebar-menu>li>a {
+    border-left: 3px solid transparent;
+}
+
+.skin-mytheme .sidebar-menu>li:hover>a,
+.skin-mytheme .sidebar-menu>li.active>a,
+.skin-mytheme .sidebar-menu>li.menu-open>a {
+    color: #ffffff;
+    background: #26282E;
+}
+
+.skin-mytheme .sidebar-menu>li.active>a {
+    border-left-color: #2f333e;
+}
+
+.skin-mytheme .sidebar-menu>li>.treeview-menu {
+    margin: 0 1px;
+    background: #2c3b41;
+}
+
+.skin-mytheme .sidebar a {
+    color: #b8c7ce;
+}
+
+.skin-mytheme .sidebar a:hover {
+    text-decoration: none;
+}
+
+.skin-mytheme .sidebar-menu .treeview-menu>li>a {
+    color: #8aa4af;
+}
+
+.skin-mytheme .sidebar-menu .treeview-menu>li.active>a,
+.skin-mytheme .sidebar-menu .treeview-menu>li>a:hover {
+    color: #ffffff;
+}
+
+.skin-mytheme .sidebar-form {
+    border-radius: 3px;
+    border: 1px solid #374850;
+    margin: 10px 10px;
+}
+
+.skin-mytheme .sidebar-form input[type="text"],
+.skin-mytheme .sidebar-form .btn {
+    box-shadow: none;
+    background-color: #374850;
+    border: 1px solid transparent;
+    height: 35px;
+}
+
+.skin-mytheme .sidebar-form input[type="text"] {
+    color: #666;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 2px;
+}
+
+.skin-mytheme .sidebar-form input[type="text"]:focus,
+.skin-mytheme .sidebar-form input[type="text"]:focus+.input-group-btn .btn {
+    background-color: #fff;
+    color: #666;
+}
+
+.skin-mytheme .sidebar-form input[type="text"]:focus+.input-group-btn .btn {
+    border-left-color: #fff;
+}
+
+.skin-mytheme .sidebar-form .btn {
+    color: #999;
+    border-top-left-radius: 0;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 0;
+}
+
+.skin-mytheme.layout-top-nav .main-header>.logo {
+    background-color: #2f333e;
+    color: #ffffff;
+    border-bottom: 0 solid transparent;
+}
+
+.skin-mytheme.layout-top-nav .main-header>.logo:hover {
+    background-color: #3b8ab8;
+}
+
