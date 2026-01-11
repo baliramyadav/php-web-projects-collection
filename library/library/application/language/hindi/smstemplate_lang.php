@@ -1,0 +1,25 @@
+<?php 
+$lang['smstemplate_slno'] = '#';
+$lang['smstemplate_action'] = 'कार्य';
+$lang['smstemplate_edit'] = 'संपादित करें';
+$lang['smstemplate_delete'] = 'हटाएं';
+$lang['smstemplate_name'] = 'नाम';
+$lang['smstemplate_template'] = 'टेम्पलेट';
+$lang['smstemplate_status'] = 'स्थिति';
+$lang['smstemplate_please_select'] = 'कृपया चयन कीजिए';
+$lang['smstemplate_active'] = 'सक्रिय';
+$lang['smstemplate_disable'] = 'अक्षम';
+$lang['smstemplate_attribute'] = 'गुण';
+$lang['smstemplate_memberID'] = 'सदस्य आईडी';
+$lang['smstemplate_dateofbirth'] = 'जन्म की तारीख';
+$lang['smstemplate_gender'] = 'लिंग';
+$lang['smstemplate_religion'] = 'धर्म';
+$lang['smstemplate_email'] = 'ईमेल';
+$lang['smstemplate_phone'] = 'फ़ोन';
+$lang['smstemplate_address'] = 'पता';
+$lang['smstemplate_joinning_date'] = 'कार्यग्रहण तिथि';
+$lang['smstemplate_photo'] = 'तस्वीर';
+$lang['smstemplate_username'] = 'उपयोगकर्ता नाम';
+$lang['smstemplate_current_date'] = 'आज की तारीख';
+$lang['smstemplate_add_email_template'] = 'ईमेल टेम्पलेट जोड़ें';
+$lang['smstemplate_update_email_template'] = 'ईमेल टेम्पलेट अपडेट करें';
