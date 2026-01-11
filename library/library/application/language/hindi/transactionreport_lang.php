@@ -1,0 +1,26 @@
+<?php 
+$lang['transactionreport_slno'] = '#';
+$lang['transactionreport_add'] = 'जोड़ना';
+$lang['transactionreport_edit'] = 'संपादित करें';
+$lang['transactionreport_view'] = 'राय';
+$lang['transactionreport_delete'] = 'हटाएं';
+$lang['transactionreport_action'] = 'कार्य';
+$lang['transactionreport_please_select'] = 'कृपया चयन कीजिए';
+$lang['transactionreport_report_for'] = 'के लिए विवरण';
+$lang['transactionreport_role'] = 'भूमिका';
+$lang['transactionreport_member'] = 'सदस्य';
+$lang['transactionreport_from_date'] = 'तारीख से';
+$lang['transactionreport_to_date'] = 'तारीख तक';
+$lang['transactionreport_income'] = 'आय';
+$lang['transactionreport_expense'] = 'व्यय';
+$lang['transactionreport_collection'] = 'संग्रह';
+$lang['transactionreport_fine'] = 'ठीक';
+$lang['transactionreport_discount'] = 'छूट';
+$lang['transactionreport_due'] = 'देय';
+$lang['transactionreport_type'] = 'प्रकार';
+$lang['transactionreport_date'] = 'तारीख';
+$lang['transactionreport_amount'] = 'रकम';
+$lang['transactionreport_get_transaction'] = 'लेनदेन प्राप्त करें';
+$lang['transactionreport_print_transaction'] = 'प्रिंट लेनदेन';
+$lang['transactionreport_pdf_transaction'] = 'Pdf लेन-देन';
+$lang['transactionreport_transaction_not_available'] = 'लेन-देन उपलब्ध नहीं है';
