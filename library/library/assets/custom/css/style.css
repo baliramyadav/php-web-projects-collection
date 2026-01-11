@@ -1,0 +1,197 @@
+/* Default Css */
+img, iframe {
+    display: block;
+}
+.has-error p {
+    color: red;
+}
+
+/*theme Css*/
+.btn-mytheme {
+    background-color: #2f333e;
+    border-color: #26282E;
+    color: #fff;
+}
+
+.btn-mytheme:hover {
+    background-color: #26282E;
+    border-color: #26282E;
+    color: #fff !important;
+}
+
+.box-mytheme {
+    border-top-color: #2f333e;
+}
+
+.nav-tabs-custom>.nav-tabs>li.active {
+    border-top-color: #2f333e !important;
+}
+
+.mytheme:focus {
+    color: #fff !important;
+}
+
+.btn-mytheme:focus, .btn-mytheme:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Input File Design Css */
+.image-preview-input {
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.image-preview-input input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    overflow: hidden;
+}
+.image-preview-input-title {
+    margin-left: 2px;
+    overflow: hidden;
+}
+
+/*Custum Css */
+.userprofileimg {
+    width: 180px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+}
+.profile_img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Email Template */
+.single_email_tag {
+    margin-bottom: 3px;
+}
+
+/*Topbar Css*/
+.languageimage {
+    width: 25px;
+    display: inline-block;
+}
+
+/*Lbrary Search Book*/
+.bookissuesearchbox {
+    padding: 30px 0px;
+    overflow: hidden;
+}
+
+/*Profile*/
+.profile_view_des {
+    color: #89817e;
+    overflow: hidden;
+}
+.profile_view_des h3 {
+    margin: 5px 0px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.profile_view_item {
+    width: 50%;
+    float: left;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+@media (max-width:600px) {
+    .profile_view_item {
+        width: 100%;
+    }
+}
+
+.profile-user-img {
+    height: 100px !important;
+}
+#pdffile embed {
+    width: 100% !important;
+    height: 900px !important;
+}
+.panel {
+    margin-bottom: 2px !important;
+}
+.note-editor {
+    overflow: hidden;
+}
+
+/*Setting*/
+.setting-fieldset {
+    border: 1px solid #DBDEE0 !important;
+    padding: 15px !important;
+    margin: 0 0 25px 0 !important;
+    box-shadow: 0px 0px 0px 0px #000;
+}
+.setting-legend {
+    font-size: 1.1em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    width: auto;
+    color: #428BCA;
+    padding: 5px 15px;
+    border: 1px solid #DBDEE0 !important;
+    margin: 0px;
+}
+.single_theme {
+    margin-bottom: 20px;
+    height: 220px;
+}
+.single_theme img {
+    height: 220px;
+}
+.theme_active {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 95%;
+    height: 100%;
+    overflow: hidden;
+    top: 35%;
+    z-index: 999;
+    font-size: 30px;
+    color: red;
+}
+.single_theme_active .img-thumbnail {
+    border: 3px solid green;
+}
+
+.imgthumbnail{
+    width: 80px;
+    height: 80px;
+    border: 2px solid #333;
+    overflow: hidden;
+    margin-right: 5px;
+    display: inline-block;
+
+}
+
+.orderlogo {
+    width: 120px;
+    height: 70px;
+    border: 1px solid #ddd;
+}
+
+.bookissue-user-info {
+    padding: 10px;
+}
+
+.checkoutimage {
+    width: 60px;
+    height: 40px;
+}

@@ -1,0 +1,27 @@
+<?php 
+$lang['idcardreport_slno'] = '#';
+$lang['idcardreport_add'] = 'जोड़ना';
+$lang['idcardreport_edit'] = 'संपादित करें';
+$lang['idcardreport_view'] = 'राय';
+$lang['idcardreport_delete'] = 'हटाएं';
+$lang['idcardreport_action'] = 'कार्य';
+$lang['idcardreport_please_select'] = 'कृपया चयन कीजिए';
+$lang['idcardreport_role'] = 'भूमिका';
+$lang['idcardreport_member'] = 'सदस्य';
+$lang['idcardreport_member_ID'] = 'सदस्य आईडी';
+$lang['idcardreport_blood_group'] = 'रक्त समूह';
+$lang['idcardreport_emergency'] = 'आपातकालीन';
+$lang['idcardreport_type'] = 'प्रकार';
+$lang['idcardreport_front_part'] = 'मुहरा';
+$lang['idcardreport_back_part'] = 'पिछला भाग';
+$lang['idcardreport_memberID'] = 'सदस्य आईडी';
+$lang['idcardreport_phone_no'] = 'फोन नंबर';
+$lang['idcardreport_email_no'] = 'ईमेल नं';
+$lang['idcardreport_card_property'] = 'इस कार्ड की संपत्ति है';
+$lang['idcardreport_found_please_return_to'] = 'यदि आपने पाया है तो कृपया वापस लौटें';
+$lang['idcardreport_valid_till'] = 'तक मान्य';
+$lang['idcardreport_authorized'] = 'अधिकार दिया गया';
+$lang['idcardreport_data_not_available'] = 'डेटा उपलब्ध नहीं';
+$lang['idcardreport_get_card'] = 'कार्ड प्राप्त करें';
+$lang['idcardreport_print_card'] = 'प्रिंट कार्ड';
+$lang['idcardreport_pdf_card'] = 'पीडीएफ कार्ड';

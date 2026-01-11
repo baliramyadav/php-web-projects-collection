@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Montserrat:100,300,300i,400,500,600,700');
+
+.mainebook, .single-ebook {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.mainebook .single-ebook .single-ebook-img {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.mainebook .single-ebook .single-ebook-img img {
+    height: 230px;
+    transition: .3s;
+    border: 1px solid #ddd;
+    width: 100% !important;
+}
+
+.mainebook .single-ebook .single-ebook-img .single-overlay {
+    position: absolute;
+     background-image: linear-gradient(to top, #19250d, #0b2921, #0f2b30, #222b34, #2e2c32);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: -100%;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.mainebook .single-ebook:hover .single-overlay {
+    opacity: .8;
+    left: 0;
+}
+
+.mainebook .single-overlay .icon-info {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.mainebook .single-overlay .icon-info h6 {
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin:5px 0px;
+}
+
+.mainebook .single-overlay .icon-info p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+    line-height: 15px;
+    text-transform: capitalize;
+}
+
+.mainebook .single-overlay .icon-item {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+.mainebook .single-overlay .icon-item ul li {
+    display: inline-block;
+    margin-right: 17px;
+}
+
+.mainebook .single-overlay .icon-item ul li a i {
+    height: 29px;
+    width: 29px;
+    line-height: 29px;
+    text-align: center;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+}
+
+.mainebook .single-overlay .icon-item ul li a i:hover {
+    background: #fff;
+    color: #00a651;
+}
+
+/*  Responsive css  */
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+
+}

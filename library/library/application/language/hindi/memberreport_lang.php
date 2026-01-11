@@ -1,0 +1,22 @@
+<?php 
+$lang['memberreport_slno'] = '#';
+$lang['memberreport_add'] = 'जोड़ना';
+$lang['memberreport_edit'] = 'संपादित करें';
+$lang['memberreport_view'] = 'राय';
+$lang['memberreport_delete'] = 'हटाएं';
+$lang['memberreport_action'] = 'कार्य';
+$lang['memberreport_please_select'] = 'कृपया चयन कीजिए';
+$lang['memberreport_report_for'] = 'के लिए विवरण';
+$lang['memberreport_role'] = 'भूमिका';
+$lang['memberreport_member'] = 'सदस्य';
+$lang['memberreport_blood_group'] = 'रक्त समूह';
+$lang['memberreport_status'] = 'स्थिति';
+$lang['memberreport_active'] = 'सक्रिय';
+$lang['memberreport_block'] = 'खंड मैथा';
+$lang['memberreport_photo'] = 'तस्वीर';
+$lang['memberreport_name'] = 'नाम';
+$lang['memberreport_phone'] = 'फ़ोन';
+$lang['memberreport_email'] = 'ईमेल';
+$lang['memberreport_get_member'] = 'सदस्य प्राप्त करें';
+$lang['memberreport_print_member'] = 'सदस्य प्रिंट करें';
+$lang['memberreport_pdf_member'] = 'पीडीएफ सदस्य';
